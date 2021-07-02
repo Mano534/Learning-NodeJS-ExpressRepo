@@ -1,4 +1,5 @@
-const { userInfo, uptime, type, release, totalmem, freemem } = require('os');
+"use strict";
+var _a = require('os'), userInfo = _a.userInfo, uptime = _a.uptime, type = _a.type, release = _a.release, totalmem = _a.totalmem, freemem = _a.freemem;
 console.log(userInfo());
 console.log(uptime());
 console.log({
@@ -7,4 +8,3 @@ console.log({
     totalmem: totalmem(),
     freemem: freemem()
 });
-//# sourceMappingURL=osModule__3.js.map

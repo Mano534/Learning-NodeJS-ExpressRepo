@@ -1,2 +1,2 @@
 console.clear();
-require('./httpModuleCreateServer');  
+import './serverSendingJsonData';
